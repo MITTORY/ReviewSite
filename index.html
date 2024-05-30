@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Название компании</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Название компании</h1>
+    </header>
+    <div class="container">
+        <div class="statistics">
+            <h2>Статистика отзывов</h2>
+            <p>Отзывы по оценкам:</p>
+            <ul>
+                <li>5: <span id="rating5">0</span></li>
+                <li>4: <span id="rating4">0</span></li>
+                <li>3: <span id="rating3">0</span></li>
+                <li>2: <span id="rating2">0</span></li>
+                <li>1: <span id="rating1">0</span></li>
+            </ul>
+
+        <div class="review-form">
+            <h2>Оставьте отзыв</h2>
+            <label for="rating">Оценка:</label>
+            <select id="rating" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <label for="statusPay">Статус оплаты:</label>
+            <select id="statusPay" required>
+                <option value="1">Оплачено</option>
+                <option value="2">Не оплачено</option>
+            </select>
+
+            <form id="reviewForm">
+                <label for="name">ФИО</label>
+                <input type="text" id="name" required>
+                <label for="email">Почта или номер телефона (для обратной связи)</label>
+                <input type="text" id="email" required>
+                <label for="reviewText">Отзыв</label>
+                <textarea id="reviewText" rows="4" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+            
+        </div>
+        <div class="reviews">
+            <h2>Отзывы</h2>
+            <div id="reviewsList">
+                <!-- Отзывы будут отображаться здесь -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <div class="footer-content1">
+            <p>Почта для обратной связи:</p>
+        </div>
+        <div class="footer-content2">
+            <p>novo1233@mail.ru</p>
+        </div>
+    </footer>
+</body>
+</html>

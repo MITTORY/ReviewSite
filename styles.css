@@ -1,0 +1,167 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px black;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+/* Стили для формы */
+.review-form {
+    padding: 0px;
+    border-radius: 0 0 5px 5px;
+}
+
+.review-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.review-form select{
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    margin-block: 5px;
+}
+
+.review-form input[type="text"],
+.review-form textarea 
+{
+    min-width: 700px;
+    max-width: 700px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 380px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.review-form button {
+    align-self: center;
+    background-color: Black;
+    color: White;
+    border: White;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Srbija Sans;
+    border-radius: 15px;
+}
+
+/* Стили для отзывов */
+.reviews {
+    margin-top: 20px;
+}
+
+.review {
+    border: 1px solid Black;
+    color: Black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    max-height: 150px; /* Максимальная высота отзыва */
+    overflow-y: auto; /* Вертикальная прокрутка при необходимости */
+    word-wrap: break-word; /* Перенос слов */
+}
+
+.review strong {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+/* Стили для статистики */
+.statistics {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.statistics h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.statistics p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.statistics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.statistics ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics ul li span {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #ffd700; /* желтый цвет для выделения оценок */
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.footer-content1 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content1 p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.footer-content2 {
+    max-width: 800px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.footer-content2 p {
+    font-size: 16px;
+    margin: 0;
+}
